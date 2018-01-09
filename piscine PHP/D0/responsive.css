@@ -1,0 +1,82 @@
+.img{
+  display:block;
+  margin-top:10px;
+  margin-right:auto;
+  margin-left:auto;
+  height:300px;
+  width:auto;
+}
+
+.tab{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+}
+.case{
+  display: flex;
+  flex-direction: column;
+  width: 5.4vw;
+  height: auto;
+  overflow: hidden;
+}
+.case_border{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.num{
+  text-align: left;
+  font-size: 1vw;
+  margin: 0;
+}
+.name{
+  text-align: center;
+  font-size: 3vw;
+  margin: 0;
+}
+.poid{
+  text-align: right;
+  font-size: 1vw;
+  margin: 0;
+}
+
+.vide{
+  margin: 1px;
+}
+.vert{
+  background-color: Lime;
+}
+.bleu{
+  background-color: DeepSkyBlue;
+}
+.orange{
+  background-color: DarkOrange;
+}
+.rose{
+  background-color: DeepPink;
+}
+.rouge{
+  background-color: red;
+}
+.jaune{
+  background-color: gold;
+}
+.gris{
+  background-color: grey;
+}
+.marron{
+  background-color: Peru;
+}
+.violet{
+  background-color: purple;
+}
+.fluo{
+  background-color: Fuchsia;
+}
