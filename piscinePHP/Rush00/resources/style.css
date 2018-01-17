@@ -1,0 +1,406 @@
+.body{
+  background-color: #e6f0ff;
+  margin: 0;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #0066ff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+  overflow: hidden;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: calc(100% - 70px);
+  margin-top: 70px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  height: 100%;
+  width: 65%;
+}
+
+.titlep{
+  margin : 0;
+  padding: 0;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  margin-right: 60%;
+  width: 100%;
+  color: white;
+}
+
+.panier{
+  width: 5%;
+  height: 100%;
+}
+
+.panierImg{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 90%;
+  margin-top: 5%;
+  margin-right: 10px;
+}
+
+.ConnectHead{
+  height: 100%;
+  width: 30%;
+}
+
+.rightContent{
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #4d94ff;
+  background-color: #cce0ff;
+}
+
+.right_Category{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #4d94ff;
+  color: #4d94ff;
+}
+
+.right_CategoryText{
+  font-size: 35px;
+  text-decoration: none;
+  padding: 0;
+  margin:0;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.right_Category:hover{
+  background-color: #4d94ff;
+  color: white;
+}
+
+.centerContent{
+  height: auto;
+  width: 80%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product{
+  width: 300px;
+  height: 350px;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.productImg{
+  height: 250px;
+  width:auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.productBottom{
+  height: 100px;
+  width: 100%;
+  background-color: #4d94ff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.productBottom_text{
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+  padding-left: 5px;
+  width: 80%;
+  text-align: center;
+}
+
+.productBottom_Add{
+  font-size: 65px;
+  color: white;
+  margin-top: 5px;
+  padding-right: 10px;
+  width: 10%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.productBottom_Price{
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+  padding-left: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.ConnectionHead{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.ConnectionHead_Text{
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.ConnectionHead_Text:hover{
+  text-decoration: underline;
+}
+
+.ConnectedHead{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ConnectedHead_Name{
+  margin-top: 15px;
+  font-size: 40px;
+  color: white;
+}
+
+.ConnectedHead_Button{
+  margin-top: 30%;
+  height: 60%;
+  width: auto;
+  margin-left: 10px;
+}
+
+.panierCenterContent{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+}
+
+.panier_product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 95%;
+  height: 100px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+  background-color: #cce0ff;
+}
+
+.panier_productImg{
+  height: 100%;
+  width: 20%;
+  overflow: hidden;
+}
+
+.panier_productImgimg{
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panier_productName{
+  width:40%;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  color: #0066ff;
+}
+
+.panier_productPrice{
+  width:20%;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  color: #0066ff;
+}
+
+.panier_productClose{
+  font-family: sans-serif;
+  color: #0066ff;
+  width: 1%;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.panierRightContent{
+  width: 30%;
+  height: 100%;
+}
+
+.panierRightContent_Panier{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0066ff;
+  background-color: #cce0ff;
+}
+
+.panier_Intro{
+  width: 100%;
+  height: 50px;
+  background-color: #0066ff;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 18px;
+}
+
+.panier_Item{
+  width: 95%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: #0066ff;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.panier_ItemNumber{
+  width: 10%;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.panier_ItemName{
+  width: 50%;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.panier_ItemPrice{
+  width: 40%;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.panier_Total{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+  background-color: #0066ff;
+}
+
+.panier_TotalText{
+  width: 60%;
+  height: 100%;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.panier_TotalPrice{
+  width: 40%;
+  height: 100%;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.panier_Validate{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+  background-color: #52cc00;
+}
+
+.panier_ValidateText{
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.adminCenter{
+  width: 70%;
+  height: 100%;
+}
+
+.adminRight{
+  width: 30%;
+  height: 100%;
+}
+
+.adminRight_Content{
+  width: 95%;
+  height: auto;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid  #0066ff;
+  margin-top: 20px;
+}
+
+.adminRight_All{
+  height: 50px;
+  width: 100%;
+  background-color: #0066ff;
+  color: white;
+}
+
+.adminRight_AllText{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.adminRight_End{
+  width: 100%;
+  height: 20px;
+}
